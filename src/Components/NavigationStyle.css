@@ -1,0 +1,53 @@
+section{
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 50px;
+}
+.header{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(255, 255, 255)
+}
+.episodeId{
+    text-align: center;
+    font-size:30px;
+
+}
+.character{
+    background-color:#f0f0f071;
+    width:50%;
+    display:block; 
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 50px;
+}
+.character:hover{
+    transform: scale(1.2, 1.1 );
+}
+.charData{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+}
+.imageData{
+    display:block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 30px;
+}
+.searchName{
+    color:black;
+    font-weight: 700;
+}
+.searchinput{
+    width: 200px;
+    height: 30px;
+    position: relative;
+    bottom:5px; 
+    border: none;
+    
+}
+.searchinput:hover{
+    color:white;
+    background-color:rgba(97, 97, 97, 0.39)
+    
+}
